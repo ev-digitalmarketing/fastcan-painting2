@@ -48,7 +48,7 @@ export default function Navbar() {
           Fastcan<span className="text-mustard">.</span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-7 text-sm text-canvas/80">
+        <nav className="hidden lg:flex items-center gap-7 text-sm font-bold text-white">
           {links.map((l) => {
             const active = l.href === "/" ? pathname === "/" : pathname?.startsWith(l.href);
             return (
@@ -56,7 +56,7 @@ export default function Navbar() {
                 key={l.href}
                 href={l.href}
                 className={`brush-underline transition-colors ${
-                  active ? "text-canvas" : "hover:text-canvas"
+                  active ? "text-white" : "hover:text-mustard"
                 }`}
               >
                 {l.label}
@@ -67,11 +67,11 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <a
-            href="tel:14165550142"
+            href="tel:16479915500"
             className="hidden sm:flex items-center gap-1.5 text-sm text-canvas/70 hover:text-canvas transition-colors"
           >
             <Phone size={14} />
-            (416) 555-0142
+            647-991-5500
           </a>
           <Link
             href="/contact-us"
@@ -98,9 +98,9 @@ export default function Navbar() {
             transition={{ duration: 0.25, ease: "easeInOut" }}
             className="lg:hidden overflow-hidden bg-ink border-t border-canvas/10"
           >
-            <div className="px-6 py-4 flex flex-col gap-4 text-canvas/80">
+            <div className="px-6 py-4 flex flex-col gap-4 font-bold text-white">
               {links.map((l) => (
-                <Link key={l.href} href={l.href} className="hover:text-canvas">
+                <Link key={l.href} href={l.href} className="hover:text-mustard">
                   {l.label}
                 </Link>
               ))}

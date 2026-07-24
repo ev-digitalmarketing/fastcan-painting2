@@ -27,14 +27,14 @@ export default function CTA() {
           <div className="mt-8 space-y-2 text-sm text-canvas/70">
             <p>
               Call &mdash;{" "}
-              <a href="tel:14165550142" className="text-mustard hover:underline">
-                (416) 555-0142
+              <a href="tel:16479915500" className="text-mustard hover:underline">
+                647-991-5500
               </a>
             </p>
             <p>
               Email &mdash;{" "}
-              <a href="mailto:hello@fastcanpainting.ca" className="text-mustard hover:underline">
-                hello@fastcanpainting.ca
+              <a href="mailto:info@fastcanpainting.com" className="text-mustard hover:underline">
+                info@fastcanpainting.com
               </a>
             </p>
             <p>Serving &mdash; Toronto &amp; the GTA</p>

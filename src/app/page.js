@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { Check } from "lucide-react";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Reveal from "@/components/Reveal";
+import { residentialServices, commercialServices } from "@/lib/servicesData";
 
 export default function Home() {
   return (
@@ -29,6 +31,14 @@ export default function Home() {
                 Interiors, exteriors, cabinet refinishing, and rental turnovers for homeowners
                 and landlords across the GTA.
               </p>
+              <ul className="grid sm:grid-cols-2 gap-x-4 gap-y-2 mb-6">
+                {residentialServices.map((s) => (
+                  <li key={s.n} className="flex items-start gap-2 text-sm text-ink/70">
+                    <Check size={15} className="text-clay mt-0.5 shrink-0" />
+                    {s.title}
+                  </li>
+                ))}
+              </ul>
               <span className="brush-underline text-sm uppercase tracking-wide text-wet font-semibold">
                 Explore residential &rarr;
               </span>
@@ -45,6 +55,14 @@ export default function Home() {
                 Offices, retail, warehouses, and multi-site property management contracts
                 scheduled around your business hours.
               </p>
+              <ul className="grid sm:grid-cols-2 gap-x-4 gap-y-2 mb-6">
+                {commercialServices.map((s) => (
+                  <li key={s.n} className="flex items-start gap-2 text-sm text-ink/70">
+                    <Check size={15} className="text-clay mt-0.5 shrink-0" />
+                    {s.title}
+                  </li>
+                ))}
+              </ul>
               <span className="brush-underline text-sm uppercase tracking-wide text-wet font-semibold">
                 Explore commercial &rarr;
               </span>

@@ -11,18 +11,18 @@ export const residentialServices = [
   },
   {
     n: "03",
+    title: "Condo & Rental Turnover",
+    body: "Fast between-tenant repaints priced per unit, scheduled around your move-out and move-in dates.",
+  },
+  {
+    n: "04",
     title: "Cabinet Refinishing",
     body: "Spray-finished kitchen and bathroom cabinets for a factory-smooth look at a fraction of replacement cost.",
   },
   {
-    n: "04",
+    n: "05",
     title: "Deck & Fence Staining",
     body: "Pressure-washed, sanded, and stained to bring tired outdoor wood back to life before summer.",
-  },
-  {
-    n: "05",
-    title: "Condo & Rental Turnover",
-    body: "Fast between-tenant repaints priced per unit, scheduled around your move-out and move-in dates.",
   },
   {
     n: "06",
@@ -34,32 +34,32 @@ export const residentialServices = [
 export const commercialServices = [
   {
     n: "01",
-    title: "Office & Retail Painting",
-    body: "Storefronts, showrooms, and workspaces repainted after-hours or on weekends so the doors never have to close.",
+    title: "Office Painting",
+    body: "Workspaces, hallways, and boardrooms repainted after-hours or on weekends so the doors never have to close.",
   },
   {
     n: "02",
+    title: "Retail Painting",
+    body: "Storefronts and showrooms refreshed on a tight turnaround so the shop is ready before opening hours.",
+  },
+  {
+    n: "03",
     title: "Property Management Contracts",
     body: "Standing agreements for multi-site portfolios — one fixed rate, one crew, one point of contact across every building.",
   },
   {
-    n: "03",
+    n: "04",
     title: "Warehouse & Industrial Coatings",
     body: "Durable epoxy and industrial-grade coatings for floors, racking, and high-traffic facility surfaces.",
   },
   {
-    n: "04",
+    n: "05",
     title: "Common Area & Lobby Refreshes",
     body: "Hallways, stairwells, and lobbies repainted in phases so residents and tenants are never displaced.",
   },
   {
-    n: "05",
+    n: "06",
     title: "New Construction Touch-ups",
     body: "Final-stage painting and deficiency touch-ups scheduled tightly against your builder handover date.",
-  },
-  {
-    n: "06",
-    title: "Line Striping & Parking Lot Marking",
-    body: "Parking stalls, accessibility markings, and directional lines refreshed to code with fast-drying traffic paint.",
   },
 ];
